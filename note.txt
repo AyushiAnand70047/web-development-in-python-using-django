@@ -1,0 +1,10 @@
+1. pip install uv
+   uv is used to install the dependencies and it is 2x faster package than pip.
+2. uv venv (creating virtual environment so that dependencies of this folder will not affect the other project dependencies which is there in the system)
+3. .venv\Scripts\activate (to activate virtual environment)
+4. uv pip install Django
+5. django-admin startproject practiceDjango
+6. cd practiceDjango
+7. python manage.py runserver
+  default port is 8000, if we want to run on any other port suppose 8001
+  python manage.py runserver 8001

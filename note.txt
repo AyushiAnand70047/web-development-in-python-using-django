@@ -9,3 +9,6 @@ Django Project setup
 7. python manage.py runserver
   default port is 8000, if we want to run on any other port suppose 8001
   python manage.py runserver 8001
+
+create Django app:
+python manage.py startapp appname

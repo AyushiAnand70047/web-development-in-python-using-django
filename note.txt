@@ -1,3 +1,4 @@
+Django Project setup
 1. pip install uv
    uv is used to install the dependencies and it is 2x faster package than pip.
 2. uv venv (creating virtual environment so that dependencies of this folder will not affect the other project dependencies which is there in the system)
